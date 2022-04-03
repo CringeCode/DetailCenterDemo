@@ -1,0 +1,119 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header {
+	background-image: url(/img/man2.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 644px;
+	position: relative;
+	font-family: "BebasBold";
+}
+header a {
+	color: #fff;
+}
+.top__line {
+	min-height: 97px;
+	box-shadow: rgba(255, 255, 255,.3) 0 0 0 1px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.70);
+	padding: 22px 0px;
+	
+}
+.top__line a {
+	font-size: 21px;
+	border-bottom: #fff dashed 1.5px;
+	line-height: 1;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+          transition: all 1s ease; /* Время изменения цвета */
+}
+.top__line a:hover {
+	color: #ffa000; /* Меняем цвет ссылки */
+}
+.adr__pskov {
+	background-image: url(/img/mappoint.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 27px;
+	padding-left: 50px;
+
+}
+.adr__pskov strong {
+	color: #c9072f;
+	display: block;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 31px;
+}
+.callback {
+	background-image: url(/img/whatsapp.png);
+	background-repeat: no-repeat;
+	background-position-x: right 200px;
+	line-height: 27px;
+	padding-left: 55px;
+	text-align: right;
+
+}
+.callback strong {
+	color: #c9072f;
+	display: block;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 31px;
+
+}
+.top__line .logo {
+	border-bottom: none;
+	transition: none;
+	position: absolute;
+	margin-top: -25px;
+
+}
+.logo__wrap {
+	margin: auto;
+	position: relative;
+	width: 100px;
+}
